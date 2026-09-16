@@ -1,18 +1,10 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/syDSSnTt)
-# APCS2 Final Project
+# FDM Electrostatics Simulator
 Electrostatics Simulator
-
-## Group Info
-**Group Name**: E (for the electric field) <br>
-**Members**: Kellen Yu
 
 ## Overview
 A simple electrostatics simulator that uses the finite-difference method to approximate solutions to Poisson's equation for electrostatics (laplace^2 V = -ρ/ε). It is a 3D Simulation, but only a slice of the space is viewed at a time. The electric field vectors, potential field, and charge densities can be displayed. Users can set up the simulation using a custom-made description language that the program will interpret. This is a very computationaly expensive program, grid sizes bigger than 30x30x30 units take a significant amount of time to complete. 
 <br>
 This runs entirely in Processing and only requires the installation of the ControlP5 library. 
-
-## Demo video
-[https://drive.google.com/file/d/1NrmOuE1uWnU_V-qh_FW8-WWLiKR7uOsx/view?usp=sharing] 
 
 ## Instructions on how to run
 Clone this repo from the main branch:
